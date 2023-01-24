@@ -4,6 +4,7 @@ socket.on('connect', function(data) {
 });
 
 //thread event
+
 socket.on('thread', function(data) {
     $('#thread').append('<li>' + data + '</li>');
 });
